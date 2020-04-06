@@ -5,3 +5,4 @@
 - 接口层次：**集成测试（Integration Testing）**
 - 系统层次：**系统测试（System Testing）**
 - 用户层次：**验收测试（Acceptance Testing，Beta Testing）**
+- **回归测试**

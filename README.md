@@ -206,59 +206,10 @@ X模型还定位了探索性测试，这是不进行事先计划的特殊类型�
 - 按照执行`行为`划分为：**手动测试、自动测试**。
 
 # 软件测试的工具
-### 配置管理工具
-- [SVN]()
+|配置管理工具|缺陷管理工具|性能测试工具|UI测试工具|接口测试工具|抓包工具|自动化测试工具|
+|:--:|:--|:--|:--|:--|:--|:--|
+|[SVN]()|[Quality Center]()<br> [JIRA]()<br>[Mantis]()|- [kylinpet]()<br>[LoadRunner]()|[Airtest]()|[Postman]()<br> [Jmeter]()| [fiddler]()<br> [httpwatch]()<br> [Wireshark]()<br> [Charles]()|[Appium]() - - - App UI自动化测试<br>移动端自动化测试开源工具，支持iOS 和Android 平台，支持Python、Java 等语言，即同一套Java 或Python 脚本可以同时运行在iOS 和Android平台<br> <br>[Selenium]() - - - Web UI 自动化测试<br>Web应用程序测试的工具，Selenium测试直接运行在浏览器中。<br> <br>[Postman]() - - - 接口测试<br> <br> [Robot Framework]() - - - Web UI自动化测试，接口测试，APP测试<br> <br>[Jmeter]() - - - 接口测试，性能测试<br> <br>[Loadrunner]() - - - 性能测试<br>预测系统行为和性能的负载测试工具。<br> <br>[Monkey]() - - - App稳定性测试<br> <br>[Appscan]() - - - 安全性测试<br> <br>[Jenkins]() - - - 持续集成<br>自动化构建、编译、部署、任务执行、测试报告等。|
 
-### 缺陷管理工具
-- [Quality Center]()
-- [JIRA]()
-- [禅道]()
-- [Bugzero]()
-- [Mantis]()
-
-### 性能测试工具
-- [kylinpet]()
-- [LoadRunner]()
-- [SmartMeter.io]()
-
-### UI测试工具
-- [Airtest]()
-
-### 接口测试工具
-- [Postman]()
-- [Jmeter]()
-
-### 抓包工具
-- [fiddler]()
-- [httpwatch]()
-- [Wireshark]()
-- [Charles]()
-- [Thor]()
-
-### 自动化测试工具
-- [Appium]() - - - App UI自动化测试
-移动端自动化测试开源工具，支持iOS 和Android 平台，支持Python、Java 等语言，即同一套Java 或Python 脚本可以同时运行在iOS 和Android平台
-
-- [Selenium]() - - - Web UI 自动化测试
-Web应用程序测试的工具，Selenium测试直接运行在浏览器中。
-
-- [Postman]() - - - 接口测试
-
-- [Robot Framework]() - - - Web UI自动化测试，接口测试，APP测试
-
-- [Jmeter]() - - - 接口测试，性能测试
-
-- [Loadrunner]() - - - 性能测试
-预测系统行为和性能的负载测试工具。
-
-- [Monkey]() - - - App稳定性测试
-
-- [GT]() - - - App性能测试
-
-- [Appscan]() - - - 安全性测试
-
-- [Jenkins]() - - - 持续集成
-自动化构建、编译、部署、任务执行、测试报告等。
 
 # 常见的通信协议
 ### OSI协议

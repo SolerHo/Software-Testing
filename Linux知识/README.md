@@ -77,7 +77,7 @@ mac中使用：【[Filezilla](https://www.filezilla.cn/download)】在linux和Wi
 
 如图所示：
 
-![Linux目录结构](Images/Linux%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84.png)
+![Linux目录结构](img/Linux%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84.png)
 
 各个目录说明：
 
@@ -151,7 +151,7 @@ cd --help
 
 例如截图如下：
 
-![cd-help](Images/cd-help.png)
+![cd-help](img/cd-help.png)
 
 ## 五、文件和目录操作命令
 

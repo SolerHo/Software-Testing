@@ -34,8 +34,8 @@ linux是 `自由` 和 `开源源代码` 的 类Unix OS。
 
 - Centos 7.6 或者Centos 8 【私人喜欢使用】
 - Ubuntu 18.04 【公司默认开发环境】
-- Kali Linux系统 【之前研究过网络安全和学习渗透测试时经常使用】
-- Tlinux 系统 ——腾讯基于Centos系统进行二次开发系统 【公司使用最多】
+- Kali Linux OS 【之前研究过网络安全和学习渗透测试时经常使用】
+- Tlinux2.4 OS ——腾讯基于Centos系统进行二次开发系统 【公司使用最多】
 
 ### 3、Linux系统安装
 
@@ -155,7 +155,7 @@ cd --help
 
 ## 五、文件和目录操作命令
 
-### 1、cd命令
+### 1、`cd` 命令
 
 `cd` : 切换工作目录，语法格式：
 
@@ -185,7 +185,7 @@ cd ./ # 当前目录，符号(/)加不加无影响，个人习惯
 cd .. # 上一级目录
 ```
 
-### 2、ls命令
+### 2、`ls` 命令
 
 `ls`：显示目录下的内容。语法格式如下：
 
@@ -221,7 +221,7 @@ drwxr-xr-x 2 root root         95 Sep 25 15:45 soler
 # 权限    引用计数 所有者 所属组 大小   文件修改时间  文件名
 ```
 
-### 3、pwd命令
+### 3、`pwd` 命令
 
 `pwd`：查询所在目录信息。语法格式：
 
@@ -236,7 +236,7 @@ pwd [-L|-P]
 - 所在路径：`/bin/pwd`
 - 执行权限：所有用户
 
-### 4、mkdir命令
+### 4、`mkdir` 命令
 
 `mkdir`：创建空文件夹。语法格式：
 
@@ -255,7 +255,7 @@ mkdir cxx # 创建cxx目录
   - `-p`：递归建立目录
   - `-m`：建立目录时，设置该目录的权限。
 
-### 5、touch命令
+### 5、`touch` 命令
 
 `touch`：创建空文件或者修改文件时间戳。语法格式：
 
@@ -273,7 +273,7 @@ touch helloworld.c
 - [option]的内容有：
   - `-r`：把指定文件或目录的日期时间改为参考文件或者目录的时间。
 
-### 6、cat命令
+### 6、`cat` 命令
 
 `cat`：查看文件内容。语法格式：
 
@@ -283,4 +283,88 @@ cat [option] file_name
 # cat -n helloworld.cpp | grep Hello # grep 用法后续会提及
 5   cout << "Hello, world!" << endl; # 文件中查找到的内容所在位置
 ```
+
+说明：
+
+- 名称：Concatenate FILE(s) to standard output
+- 所在路径：`/bin/cat`
+- 执行权限：所有用户
+- 常见的`[option]`情况有：
+  - `-E`: 列出每行结尾的回车符$
+  - `-n`：显示行号
+  - `-v`：列出特殊字符
+
+### 7、`more` 命令
+
+`more` ：分页显示文件的命令。按space键九往下一页显示，按b键回退一页。语法格式：
+
+```sh
+more [option] fileNames
+#示例
+more -3 helloworld.cpp  #显示前3行内容
+more +3 helloworld.cpp # 显示从第3行之后的内容
+```
+
+说明：
+
+- 名称：`more`
+- 所在路径：`/bin/more`
+- 执行权限：所有用户
+- 常见的`[option]`的情况：
+  - `-n`：一次显示的行数
+  - `+n`：从第n行开始显示
+  - `-s`：当多个空行时，就替换为一行的空白行。
+
+### 8、`head`命令
+
+`head`：显示文件开头内容。语法格式：
+
+```shell
+head [option] fileName
+#示例
+head -3 helloworld.cpp # 从开头第一行开始，到第三行结束
+head -v helloworld.cpp # 显示文件全内容，会在开头显示文件名
+```
+
+说明：
+
+- 名称：`head`
+- 所在路径：`/usr/bin/head`
+- 执行权限：所有用户
+- 常见的`[option]`情况：
+  - `-n`：从头开始，显示指定行数。
+  - `-v`：显示文件名
+
+### 9、`tail` 命令
+
+`tail` ：显示文件结尾内容。语法格式：
+
+```sh
+tail [option] fileName
+#示例
+tail -3 helloworld.cpp #显示倒序第3行到结尾的内容
+tail -f helloworl.cpp | grep Hello # 监听文件中含"Hello"字段的内容
+```
+
+说明：
+
+- 名称：`tail`
+- 所在路径：`/usr/bin/tail`
+- 执行权限：所有用户
+- 常见的`[option]`的情况：
+  - `-n`：从文件结尾倒序，显示指定行数。
+  - `-v`：显示文件内容，在开头显示文件名
+  - `-f`：监听文件中含有内容或新增内容（常见和`grep命令`使用）。
+
+10、`cp/scp` 命令
+
+`cp/scp`：复制文件或目录。语法格式：
+
+```
+cp/scp [option] source_file target_file
+```
+
+
+
+
 

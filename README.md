@@ -23,7 +23,7 @@
 综上总结：软件测试目的是**尽可能早的发现软件中存在的陷并提高软件质量**。
 
 # 软件测试的工作流程
-![](https://github.com/SolerHo/Auto-Testing/blob/master/Images/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E7%9A%84%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B.png)
+![](./Images/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E7%9A%84%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B.png)
 
 # 软件测试的过程
 ### 测试设计阶段
@@ -57,7 +57,7 @@
 ### 测试执行阶段
 软件测试执行过程的三个阶段
 
-![](https://github.com/SolerHo/Auto-Testing/blob/master/Images/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E6%89%A7%E8%A1%8C%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%9A%84%E4%B8%89%E4%B8%AA%E9%98%B6%E6%AE%B5.png)
+![](./Images/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E6%89%A7%E8%A1%8C%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%9A%84%E4%B8%89%E4%B8%AA%E9%98%B6%E6%AE%B5.png)
 
 - #### 初测期
 	- 测试主要的功能和关键的执行路径，排除主要的障碍。
@@ -124,11 +124,11 @@
 | **解释说明**     | 测试用例的唯一标识，主要用来识别测试用例的目的。 <br /><br />用例编号需要具有指引性和维护性，格式一般由字母、数字、下划线组成。 | 为了更好识别以及维护用例。<br /><br />一般会使用 **JIRA**进行管理 | 简洁明了的一句话来描述测试用例的关注点，原则上测试标题也具有唯一性。 | 一般划分为三个级别：高、中、低。 <br /><br />高优先级别用例是指软件的核心业务、基本功能、重要特性以及使用频率比较高的部分。<br /><br />➡️有的公司会用P0、P1、P2来划分哦！ | 指测试用例在执行前需要满足的一些的条件，否则测试用例无法执行。 <br /><br />因果关系 |          | 执行测试用例的步骤描述，测试用例执行人员根据该操作步骤完成测试执行。<br /><br />👉***小技巧：可以熟悉文档后自己进行书写一份。方便开发复现Bug。*** | 用来判断被测对象是否正常。<br /><br />根据需求规格说明书来描述用户的期望。 | 用例状态一般分三种：**PASS通过、FAIL失败、N/A未执行**。 |
 
 # 软件测试的流程
-![](https://github.com/SolerHo/Software-Testing/blob/master/Images/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%88%86%E7%B1%BB%E7%9A%84%E4%B8%89%E7%BB%B4%E7%A9%BA%E9%97%B4.jpg)
+![](./Images/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%88%86%E7%B1%BB%E7%9A%84%E4%B8%89%E7%BB%B4%E7%A9%BA%E9%97%B4.jpg)
 
 按照测试层次划分为四个层次：
 
-- 底层层次：[**单元测试（Unit Testing）**](https://github.com/SolerHo/Software-Testing/blob/master/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E8%BF%87%E7%A8%8B/%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95%E7%9A%84%E6%80%BB%E7%BB%93.md)
+- 底层层次：[**单元测试（Unit Testing）**](./%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E8%BF%87%E7%A8%8B/%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95%E7%9A%84%E6%80%BB%E7%BB%93.md)
 - 接口层次：[**集成测试（Integration Testing）**]()
 - 系统层次：[**系统测试（System Testing）**]()
 - 用户层次：[**验收测试（Acceptance Testing，Beta Testing）**]()

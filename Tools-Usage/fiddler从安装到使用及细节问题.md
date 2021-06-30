@@ -18,10 +18,10 @@ E: Could not get lock /var/lib/dpkg/lock-frontend - open (11: Resource temporari
 E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?
 ```
 截图如下：
-![](https://github.com/SolerHo/Auto-Testing/blob/master/Tools-Usage/Images/ubuntu%E9%94%99%E8%AF%AF%E6%8F%90%E7%A4%BA.png)
+![](./Images/ubuntu%E9%94%99%E8%AF%AF%E6%8F%90%E7%A4%BA.png)
 
 解决方案：
-```
+```sh
 sudo rm /var/lib/dpkg/lock-frontend       
 
 sudo rm /var/lib/dpkg/lock
@@ -36,7 +36,7 @@ mono fiddler.exe
 ```
 
 ## fiddler的工作原理
-![](https://github.com/SolerHo/Software-Testing/blob/master/Tools-Usage/Images/fiddler%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%9B%BE.png)
+![](./Images/fiddler%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%9B%BE.png)
 
 ## fiddler的两种代理模式
 #### 1.流模式（stream）
@@ -59,11 +59,11 @@ mono fiddler.exe
 ## fiddler的界面介绍
 #### 1.会话列表
 
-![](https://github.com/SolerHo/Software-Testing/blob/master/Tools-Usage/Images/fiddler%E4%BC%9A%E8%AF%9D%E5%88%97%E8%A1%A8.png)
+![](./Images/fiddler%E4%BC%9A%E8%AF%9D%E5%88%97%E8%A1%A8.png)
 
 #### 2.详情和数据统计面板
 
-![](https://github.com/SolerHo/Software-Testing/blob/master/Tools-Usage/Images/%E6%9F%A5%E7%9C%8B%E8%AF%B7%E6%B1%82.jpg)
+![](./Images/%E6%9F%A5%E7%9C%8B%E8%AF%B7%E6%B1%82.jpg)
 
 2.1 Statistics：数据统计面板。性能分析。
 
